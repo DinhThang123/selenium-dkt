@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-15T16:43:46" hostname="DESKTOP-LM8PI8L" time="4.34">
+<testsuite name="LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-15T17:20:46" hostname="DESKTOP-LM8PI8L" time="5.477">
   <properties/>
-  <testcase name="testSomeLibraryMethod" classname="LibraryTest" time="4.34"/>
+  <testcase name="testSomeLibraryMethod" classname="LibraryTest" time="5.477"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 3666
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 38125
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618505029.154][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
-Apr 15, 2021 11:43:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618507249.998][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+Apr 16, 2021 12:20:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 15, 2021 11:43:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 16, 2021 12:20:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
-Apr 15, 2021 11:43:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 16, 2021 12:20:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 90 of 89
 ]]></system-err>
 </testsuite>

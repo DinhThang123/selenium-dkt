@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class LibraryTest {
     @Test
     public void testSomeLibraryMethod() {
-    	System.setProperty("webdriver.chrome.driver","C://chromedriver_win32/chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","/chromedriver_win32/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
