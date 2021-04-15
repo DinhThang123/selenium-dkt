@@ -38,7 +38,9 @@ repositories {
 }
 test{
 	useTestNG(){
-		suites 'src/test/suite.xml'
+		useDefaultListeners = true      
+      	suiteXmlFilesm << new File("src/test/suite.xml")         
+      	setSuiteXmlFiles(suiteXmlFiles)
 	}
 }
 
