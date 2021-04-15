@@ -37,8 +37,11 @@ repositories {
     jcenter()
 }
 test{
-	println("hello")
 	useTestNG(){
 		suites 'src/test/suite.xml'
 	}
+}
+
+task abc(){
+println("abc")
 }
